@@ -1,4 +1,5 @@
 📊 Data Visualization Module (Flutter)
+
 📌 Project Overview
 
 This project is a Flutter-based data visualization module designed to display energy-related information in different modes:
