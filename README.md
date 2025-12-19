@@ -1,16 +1,30 @@
-# scube_task
+📊 Data Visualization Module (Flutter)
+📌 Project Overview
 
-A new Flutter project.
+This project is a Flutter-based data visualization module designed to display energy-related information in different modes:
+Users can seamlessly switch between these views using a segmented button. In the Custom Date Data view, users can select a date range to filter and view data accordingly.
 
-## Getting Started
+🛠️ Technologies Used
 
-This project is a starting point for a Flutter application.
+Flutter – UI development framework
+Riverpod – State management for handling selected dates
+Material Components – For consistent and responsive UI design
 
-A few resources to get you started if this is your first Flutter project:
+Project Structure
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+DataViewTab
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Acts as the main container
+Displays total power information
+Holds the segmented button and dynamic content based on selection
+
+CustomSegmentedButton
+
+Allows switching between Today Data and Custom Date Data
+TodayDataTab
+Displays energy statistics in a structured card layout
+
+CustomDataTab
+
+Provides date selection (From Date & To Date)
+Displays data based on the selected date range
